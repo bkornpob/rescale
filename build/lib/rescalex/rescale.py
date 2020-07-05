@@ -125,7 +125,10 @@ class Rescale:
         # subset only valid data
         m = np.isfinite(self.data)
         tmpdata = self.data[m]
-        tmp = len(self.data) - len(tmpdata)
+        tmpl = 1.
+        for i in self.data.shape:
+            tmpl *= i
+        tmp = int(tmpl) - len(tmpdata)
         print('Exclude {0} invalid data points'.format(tmp))
         return tmpdata
         

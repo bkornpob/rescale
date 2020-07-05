@@ -1,16 +1,16 @@
 Metadata-Version: 2.1
 Name: rescalex
-Version: 1.0.0
+Version: 1.0.1
 Summary: UNKNOWN
 Home-page: https://github.com/bkornpob/rescale
 Author: Kornpob Bhirombhakdi
 Author-email: kbhirombhakdi@stsci.edu
 License: UNKNOWN
-Description: # Rescale
+Description: # Rescalex
         
         pip install rescalex
         
-        Rescale is a python 3 class to implement rescaling of values.
+        rescalex.rescale.Rescale is a python 3 class to implement rescaling of values.
         Input:
         - data = an array of data (or at least a list of [min,max])
         - method = rescaling method
